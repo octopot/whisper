@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.14-slim
 
 LABEL author="OctoLab team <team@octolab.org>"
 LABEL org.opencontainers.image.title="Whisper"
