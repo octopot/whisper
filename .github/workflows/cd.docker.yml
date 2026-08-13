@@ -54,7 +54,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Define metadata for images
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: |
             ghcr.io/lifeosm/whisper
