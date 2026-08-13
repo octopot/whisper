@@ -62,7 +62,7 @@ jobs:
             type=raw,value=latest
             type=raw,value=${{ steps.version.outputs.latest }}
       - name: Build and push images
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: Dockerfile
